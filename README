@@ -1,7 +1,12 @@
 Access to DC1 output products.
 
+Run read_dc1.ipynb Jupyter Notebook.
+
+Based on 
 Tony Johnson's writeup:
 https://docs.google.com/presentation/d/1aXZ7E9ByZRyYY7VQzrAJ5Q2m79mtGCJ6wHg4kVlE7Jo/edit#slide=id.g1c96d91273_0_0
+
+# Set up Jupyter-dev connection on NERSC following.
 
 # Set up at
 /global/common/cori/contrib/lsst/lsstDM/setupStack-dc1-a.sh
