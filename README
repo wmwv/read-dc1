@@ -1,0 +1,19 @@
+Access to DC1 output products.
+
+Tony Johnson's writeup:
+https://docs.google.com/presentation/d/1aXZ7E9ByZRyYY7VQzrAJ5Q2m79mtGCJ6wHg4kVlE7Jo/edit#slide=id.g1c96d91273_0_0
+
+# Set up at
+/global/common/cori/contrib/lsst/lsstDM/setupStack-dc1-a.sh
+# Data are here
+/global/cscratch1/sd/desc/DC1/DC1-imsim/full_focalplane_undithered/
+
+# See Bryce Kalmbach's Jupyter dev demo at
+https://github.com/LSSTDESC/Monitor/blob/master/doc/jupyter-dev.md
+
+[cori10 ~] module load python/2.7-anaconda
+[cori10 ~] ipython kernel install --user --name lsst
+Installed kernelspec lsst in /global/u1/w/wmwv/.local/share/jupyter/kernels/lsst
+
+# The key thing that tripped me up for an hour:
+chmod ug+rx lsst-kerne.sh
